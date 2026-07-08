@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>56K — The Dial-Up Internet Revival</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=VT323&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- CRT Overlay Effect -->
+  <div class="crt-overlay"></div>
+  <div class="scanlines"></div>
+
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="container nav-inner">
+      <a href="#" class="logo">
+        <span class="logo-icon">📡</span>
+        <span class="logo-text">56K</span>
+      </a>
+      
+      <!-- CSS-only mobile menu -->
+      <input type="checkbox" id="menu-toggle" class="menu-toggle" hidden>
+      <label for="menu-toggle" class="menu-btn" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </label>
+      
+      <ul class="nav-links">
+        <li><a href="#features">Features</a></li>
+        <li><a href="#how-it-works">How It Works</a></li>
+        <li><a href="#pricing">Pricing</a></li>
+        <li><a href="#download" class="btn-nav">Get 56K</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <header class="hero">
+    <div class="container">
+      <div class="hero-badge">🎉 Now in Beta</div>
+      <h1 class="hero-title">
+        The Internet Was<br>
+        <span class="glitch" data-text="Better">Better</span> Slower
+      </h1>
+      <p class="hero-subtitle">
+        Relive the magic of dial-up. Authentic connection sounds, 
+        pixel-perfect nostalgia, and the joy of waiting for a single JPEG.
+      </p>
+      <div class="hero-actions">
+        <a href="#download" class="btn btn-primary">
+          <span class="btn-icon">⬇</span> Download 56K
+        </a>
+      </div>
+      
+      <!-- CSS-only animated modem window -->
+      <div class="hero-visual">
+        <div class="modem-window">
+          <div class="modem-header">
+            <span class="dot red"></span>
+            <span class="dot yellow"></span>
+            <span class="dot green"></span>
+            <span class="modem-title">Connecting to Internet...</span>
+          </div>
+          <div class="modem-body">
+            <div class="connection-log">
+              <p class="log-line line-1">Initializing modem...</p>
+              <p class="log-line line-2">Dialing 555-0199...</p>
+              <p class="log-line line-3">Handshaking at 56 Kbps...</p>
+              <p class="log-line line-4">Negotiating V.90 protocol...</p>
+              <p class="log-line line-5">Authenticating...</p>
+              <p class="log-line line-6">Connected at 53333 bps</p>
+              <p class="log-line line-7">Welcome to 56K Revival!</p>
+            </div>
+            <div class="progress-bar">
+              <div class="progress-fill"></div>
+            </div>
+            <div class="status-text">
+              <span class="status-1">Dialing 555-0199...</span>
+              <span class="status-2">Handshaking...</span>
+              <span class="status-3">Authenticating...</span>
+              <span class="status-4">Connected! 🎉</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Features Section -->
+  <section id="features" class="features">
+    <div class="container">
+      <h2 class="section-title">Why Go Back?</h2>
+      <p class="section-subtitle">Everything you loved about the 90s internet, none of the actual frustration.</p>
+      
+      <div class="features-grid">
+        <article class="feature-card">
+          <div class="feature-icon">📞</div>
+          <h3>Authentic Handshake</h3>
+          <p>Every connection plays the real dial-up handshake sound. It's like ASMR for millennials.</p>
+        </article>
+        <article class="feature-card">
+          <div class="feature-icon">🖼️</div>
+          <h3>Progressive JPEG Loading</h3>
+          <p>Images load line by line, just like nature intended. No instant gratification here.</p>
+        </article>
+        <article class="feature-card">
+          <div class="feature-icon">💬</div>
+          <h3>IRC-Style Chat</h3>
+          <p>Plain text, no emojis, and usernames like xX_DarkSlayer_Xx. Pure communication.</p>
+        </article>
+        <article class="feature-card">
+          <div class="feature-icon">🎮</div>
+          <h3>Built-in GeoCities Builder</h3>
+          <p>Create your own corner of the web with marquee text, visitor counters, and MIDI music.</p>
+        </article>
+        <article class="feature-card">
+          <div class="feature-icon">🕹️</div>
+          <h3>Retro Game Arcade</h3>
+          <p>Play Snake, Minesweeper, and a text-based MUD. High scores saved to localStorage.</p>
+        </article>
+        <article class="feature-card">
+          <div class="feature-icon">🔒</div>
+          <h3>No Algorithms</h3>
+          <p>Your feed is chronological. No reels, no shorts, no AI slop. Just pure human content.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- How It Works -->
+  <section id="how-it-works" class="how-it-works">
+    <div class="container">
+      <h2 class="section-title">How It Works</h2>
+      <div class="steps">
+        <div class="step">
+          <div class="step-number">01</div>
+          <h3>Pick Up</h3>
+          <p>Open the app. Your phone becomes a virtual modem. No Wi-Fi needed — we use your data plan ironically.</p>
+        </div>
+        <div class="step-arrow">→</div>
+        <div class="step">
+          <div class="step-number">02</div>
+          <h3>Dial In</h3>
+          <p>Tap "Connect" and listen to the handshake. Watch the lights blink. Feel the anticipation build.</p>
+        </div>
+        <div class="step-arrow">→</div>
+        <div class="step">
+          <div class="step-number">03</div>
+          <h3>Surf</h3>
+          <p>Browse a curated web of retro sites, chat rooms, and pixel art galleries. Disconnect to "hang up."</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Pricing -->
+  <section id="pricing" class="pricing">
+    <div class="container">
+      <h2 class="section-title">Choose Your Plan</h2>
+      <p class="section-subtitle">Pricing that would make your dad proud.</p>
+      
+      <div class="pricing-grid">
+        <div class="pricing-card">
+          <div class="pricing-header">
+            <h3>Free Trial</h3>
+            <div class="price">$0<span>/mo</span></div>
+          </div>
+          <ul class="pricing-features">
+            <li>✓ 56 Kbps speed cap</li>
+            <li>✓ 10 hours/month</li>
+            <li>✓ Basic handshake sound</li>
+            <li>✓ Single chat room</li>
+          </ul>
+          <a href="#" class="btn btn-outline">Start Free</a>
+        </div>
+        
+        <div class="pricing-card featured">
+          <div class="pricing-badge">Most Popular</div>
+          <div class="pricing-header">
+            <h3>56K Pro</h3>
+            <div class="price">$14<span>/mo</span></div>
+          </div>
+          <ul class="pricing-features">
+            <li>✓ 128 Kbps "blazing" speed</li>
+            <li>✓ Unlimited hours</li>
+            <li>✓ Premium handshake sounds</li>
+            <li>✓ Private chat rooms</li>
+            <li>✓ GeoCities builder</li>
+          </ul>
+          <a href="#" class="btn btn-primary">Go Pro</a>
+        </div>
+        
+        <div class="pricing-card">
+          <div class="pricing-header">
+            <h3>ISDN Legend</h3>
+            <div class="price">$56<span>/mo</span></div>
+          </div>
+          <ul class="pricing-features">
+            <li>✓ 256 Kbps (whoa)</li>
+            <li>✓ Everything in Pro</li>
+            <li>✓ Custom modem skin</li>
+            <li>✓ Beta access to "Broadband Mode"</li>
+          </ul>
+          <a href="#" class="btn btn-outline">Go Legend</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Download CTA -->
+  <section id="download" class="download">
+    <div class="container">
+      <h2 class="section-title">Ready to Disconnect?</h2>
+      <p class="section-subtitle">Join 12,847 nostalgic souls who already went back.</p>
+      <div class="download-actions">
+        <a href="#" class="btn btn-primary btn-large">
+          <span>⬇</span> Download for iOS
+        </a>
+        <a href="#" class="btn btn-primary btn-large">
+          <span>⬇</span> Download for Android
+        </a>
+      </div>
+      <p class="download-note">Also available on Windows 95, 98, ME, and XP. <a href="#">View all versions →</a></p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <span class="logo-text">56K</span>
+          <p>Bringing slowness back to the internet, one handshake at a time.</p>
+        </div>
+        <div class="footer-links">
+          <div>
+            <h4>Product</h4>
+            <a href="#features">Features</a>
+            <a href="#pricing">Pricing</a>
+            <a href="#">Changelog</a>
+          </div>
+          <div>
+            <h4>Community</h4>
+            <a href="#">Discord</a>
+            <a href="#">Reddit</a>
+            <a href="#">GeoCities Webring</a>
+          </div>
+          <div>
+            <h4>Legal</h4>
+            <a href="#">Privacy (lol)</a>
+            <a href="#">Terms</a>
+            <a href="#">AOL License</a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2026 56K Revival Inc. Best viewed in Netscape Navigator 4.0.</p>
+        <div class="footer-badges">
+          <span>🔒 SSL Not Included</span>
+          <span>⚡ Made with Tables</span>
+          <span>💾 Y2K Compliant</span>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
